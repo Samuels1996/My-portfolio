@@ -26,7 +26,6 @@ export default function PortfolioContainer() {
 
   return (
     <div>
-      <h1>Brian Samuels</h1>
       <Navbar currentPage={currentPage} handlePageChange={handlePageChange} />
       {renderPage()}
     </div>

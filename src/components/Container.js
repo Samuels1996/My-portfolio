@@ -4,6 +4,7 @@ import Projects from './pages/Projects';
 import About from './pages/About';
 import Resume from './pages/Resume';
 import Contact from './pages/Contact';
+import '../styles/App.css'
 
 export default function PortfolioContainer() {
   const [currentPage, setCurrentPage] = useState('Home');
@@ -25,6 +26,7 @@ export default function PortfolioContainer() {
 
   return (
     <div>
+      <h1>Brian Samuels</h1>
       <Navbar currentPage={currentPage} handlePageChange={handlePageChange} />
       {renderPage()}
     </div>

@@ -31,18 +31,18 @@ function Contact() {
   };
 
   return (
-    <div>
+    <div className="center-form form-padding">
       <h3 className="text-decoration-none">
         Please email me at samuels.brian9@gmail.com or fill out the form below:
       </h3>
-      <form className="form-text">
+      <form className="form-text form-center form-padding">
         <input
           value={name}
           name="name"
           onChange={handleInputChange}
           type="text"
           placeholder="name"
-          className="d-block"
+          className="d-block center center-form"
         />
         <input
           value={email}
@@ -50,7 +50,7 @@ function Contact() {
           onChange={handleInputChange}
           type="email"
           placeholder="email"
-          className="d-block"
+          className="d-block center center-form"
         />
 
         <button type="button" onClick={handleFormSubmit} className="bg-primary">

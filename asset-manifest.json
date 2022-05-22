@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/:https://Samuels1996.guthub.io/my-portfolio/static/css/main.41f7c02b.css",
+    "main.js": "/:https://Samuels1996.guthub.io/my-portfolio/static/js/main.f417aebd.js",
+    "static/js/787.128fc6e9.chunk.js": "/:https://Samuels1996.guthub.io/my-portfolio/static/js/787.128fc6e9.chunk.js",
+    "static/media/this-is-war-img.png": "/:https://Samuels1996.guthub.io/my-portfolio/static/media/this-is-war-img.c4e66a51e3d90a701a88.png",
+    "static/media/myResume.png": "/:https://Samuels1996.guthub.io/my-portfolio/static/media/myResume.6b99dfd89f278e169a9e.png",
+    "static/media/meCoding.png": "/:https://Samuels1996.guthub.io/my-portfolio/static/media/meCoding.1a5b0a795b9a1fa1bc3a.png",
+    "static/media/Brians-Portfolio.png": "/:https://Samuels1996.guthub.io/my-portfolio/static/media/Brians-Portfolio.ac8a296e98e0a13d39c7.png",
+    "static/media/codingImage.png": "/:https://Samuels1996.guthub.io/my-portfolio/static/media/codingImage.3c77a5e56f5d2000a0ce.png",
+    "static/media/Dashboard-Daily.png": "/:https://Samuels1996.guthub.io/my-portfolio/static/media/Dashboard-Daily.1fb856cd94e5f91048d2.png",
+    "static/media/logo.svg": "/:https://Samuels1996.guthub.io/my-portfolio/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/:https://Samuels1996.guthub.io/my-portfolio/index.html",
+    "main.41f7c02b.css.map": "/:https://Samuels1996.guthub.io/my-portfolio/static/css/main.41f7c02b.css.map",
+    "main.f417aebd.js.map": "/:https://Samuels1996.guthub.io/my-portfolio/static/js/main.f417aebd.js.map",
+    "787.128fc6e9.chunk.js.map": "/:https://Samuels1996.guthub.io/my-portfolio/static/js/787.128fc6e9.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.41f7c02b.css",
+    "static/js/main.f417aebd.js"
+  ]
+}

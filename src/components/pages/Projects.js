@@ -13,13 +13,13 @@ export default function Projects() {
       </p>
       <div className='portfolio'>
         <p>This is war</p>
-        <a href="http://thisiswar.herokuapp.com/"><img src={ThisIsWar} /></a>
+        <a href="http://thisiswar.herokuapp.com/"><img src={ThisIsWar} alt='This is war img' /></a>
         <a href="https://github.com/Samuels1996/this-is-war">GitHub repository</a>
         <p>Dashboard Daily</p>
-        <a href="https://samuels1996.github.io/Morning-meme-page/"><img src={Dashboard} /></a>
+        <a href="https://samuels1996.github.io/Morning-meme-page/"><img src={Dashboard} alt='Dashboard daily img' /></a>
         <a href='https://github.com/Samuels1996/Morning-meme-page'>GitHub repository</a>
         <p>My Portfolio</p>
-        <a href='https://github.com/Samuels1996/My-portfolio'><img src={Portfolio} /></a>
+        <a href='https://github.com/Samuels1996/My-portfolio'><img src={Portfolio} alt='Portfolio img' /></a>
         <a href='https://github.com/Samuels1996/My-portfolio'>GitHub repository</a>
       </div>
     </div>

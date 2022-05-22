@@ -3,9 +3,9 @@ import React from 'react';
 
     function Navbar({ currentPage, handlePageChange }) {
   return (
-    <div className='nav-back name-color' >
-      <h1>Brian Samuels</h1>  
-      <ul className="nav nav-tabs justify-content-end no-padding">
+    <div className='nav-back nav-text' >
+      <h1 className='name-color'>Brian Samuels</h1>  
+      <ul className="nav nav-tabs justify-content-end">
         <li className="nav-item">
           <a
             href="#about"

@@ -1,21 +1,68 @@
-import React from 'react';
-import '../../styles/App.css';
+import React, { useState } from "react";
+import { validateEmail } from "../../utils/helper.js";
 
-const styles = {
-  contactInfo: {
-    background: '#e8eaf6',
-    
-  }
-}
+function Contact() {
+  const [email, setEmail] = useState("");
+  const [name, setName] = useState("");
+  const [errorMessage, setErrorMessage] = useState("");
 
-export default function Contact() {
+  const handleInputChange = (e) => {
+    const { target } = e;
+    const inputType = target.name;
+    const inputValue = target.value;
+
+    if (inputType === "email") {
+      setEmail(inputValue);
+    } else {
+      setName(inputValue);
+    }
+  };
+
+  const handleFormSubmit = (e) => {
+    e.preventDefault();
+
+    if (!validateEmail(email) || !name) {
+      setErrorMessage("Email is invalid");
+
+      return;
+    }
+    setName("");
+    setEmail("");
+  };
+
   return (
-    <div className='about'>
-      <h1>Contact Page</h1>
-      <hr></hr>
-      <p style={styles.contactInfo}>
-        To contact me please email me at samuels.brian9@gmail.com. 
-      </p>
+    <div>
+      <h3 className="text-decoration-none">
+        Please email me at samuels.brian9@gmail.com or fill out the form below:
+      </h3>
+      <form className="form-text">
+        <input
+          value={name}
+          name="name"
+          onChange={handleInputChange}
+          type="text"
+          placeholder="name"
+          className="d-block"
+        />
+        <input
+          value={email}
+          name="email"
+          onChange={handleInputChange}
+          type="email"
+          placeholder="email"
+          className="d-block"
+        />
+
+        <button type="button" onClick={handleFormSubmit} className="bg-primary">
+          Submit
+        </button>
+      </form>
+      {errorMessage && (
+        <div>
+          <p className="error-text">{errorMessage}</p>
+        </div>
+      )}
     </div>
   );
 }
+export default Contact;

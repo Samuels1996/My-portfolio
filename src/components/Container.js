@@ -4,7 +4,8 @@ import Projects from './pages/Projects';
 import About from './pages/About';
 import Resume from './pages/Resume';
 import Contact from './pages/Contact';
-import '../styles/App.css'
+import Footer from './Footer';
+import '../styles/App.css';
 
 export default function PortfolioContainer() {
   const [currentPage, setCurrentPage] = useState('Home');
@@ -28,6 +29,8 @@ export default function PortfolioContainer() {
     <div>
       <Navbar currentPage={currentPage} handlePageChange={handlePageChange} />
       {renderPage()}
+
+      <Footer />
     </div>
   );
 }

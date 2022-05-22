@@ -44,5 +44,27 @@ img {
 }
 
 .name-color {
-  color: linear-gradient(to top, grey, white)
+  text-transform: capitalize;
+  background: linear-gradient(to right white, black);
+  font-size: 3rem;
+  color: black;
+}
+
+.nav-text {
+  font-size: 1.5rem;
+  color: white;
+}
+
+.form-text {
+  justify-content: center;
+}
+
+.footer {
+  font-size: 2rem;
+  display: flex;
+  justify-content: space-around;
+}
+
+.footer a {
+  color: black;
 }

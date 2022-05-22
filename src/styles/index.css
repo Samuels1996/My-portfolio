@@ -89,4 +89,7 @@ img {
   flex-direction: row;
   flex-wrap: wrap;
   padding: 20px;
+  justify-content: center;
+  align-items: center;
+  border: 10px black;
 }

@@ -14,71 +14,49 @@ export default function Projects() {
       <p>
         Below is a list of some of the projects that I have had the pleasure of taking part in:
       </p>
-      {/* <div className='portfolio'>
-        <p>This is war</p>
-        <a href="http://thisiswar.herokuapp.com/"><img src={ThisIsWar} alt='This is war img' /></a>
-        <a href="https://github.com/Samuels1996/this-is-war">GitHub repository</a>
-        <p>Dashboard Daily</p>
-        <a href="https://samuels1996.github.io/Morning-meme-page/"><img src={Dashboard} alt='Dashboard daily img' /></a>
-        <a href='https://github.com/Samuels1996/Morning-meme-page'>GitHub repository</a>
-        <p>My Portfolio</p>
-        <a href='https://github.com/Samuels1996/My-portfolio'><img src={Portfolio} alt='Portfolio img' /></a>
-        <a href='https://github.com/Samuels1996/My-portfolio'>GitHub repository</a>
-        <p>This is War 2</p>
-        <a href='https://this-is-war-2.herokuapp.com/'><img src={Mockup} alt='Portfolio img' /></a>
-        <a href='https://github.com/Samuels1996/this-is-war-2'>GitHub repository</a>
-      </div> */}
-      {/* <div>
-      <Card style={{ width: '18rem' }}>
-      <Card.Img variant="top" src="holder.js/100px180" />
-      <Card.Body>
-      <Card.Title>Card Title</Card.Title>
-      <Card.Text>
-      Some quick example text to build on the card title and make up the bulk of
-      the card's content.
-    </Card.Text>
-    <Button variant="primary">Go somewhere</Button>
-  </Card.Body>
-</Card>
-</div> */}
-<MDBCard style={{ maxWidth: '22rem' }}>
-      <MDBCardImage src='https://mdbootstrap.com/img/new/standard/nature/184.webp' position='top' alt='...' />
-      <MDBCardBody>
-        <MDBCardTitle>Card title</MDBCardTitle>
-        <MDBCardText>
-          Some quick example text to build on the card title and make up the bulk of the card's content.
-        </MDBCardText>
-        <MDBBtn href='#'>Button</MDBBtn>
-      </MDBCardBody>
-    </MDBCard>
+
+      <MDBCard style={{ maxWidth: '22rem' }}>
+        <MDBCardImage src={ThisIsWar} position='top' alt='This is War img' />
+          <MDBCardBody>
+            <MDBCardTitle>This is War</MDBCardTitle>
+              <MDBCardText>
+              This is War was designed by myself as well as few other colleagues to make a fun medieval fighting game!
+             </MDBCardText>
+            <MDBBtn href='https://github.com/Samuels1996/this-is-war'>GitHub</MDBBtn>
+          <MDBBtn href='http://thisiswar.herokuapp.com/'>Deployed Link</MDBBtn>
+        </MDBCardBody>
+      </MDBCard>
+      <MDBCard style={{ maxWidth: '22rem' }}>
+        <MDBCardImage src={Mockup} position='top' alt='This is War 2 img' />
+        <MDBCardBody>
+            <MDBCardTitle>This is War 2</MDBCardTitle>
+              <MDBCardText>
+                This is War 2 was designed to be a fun medieval fighting game. This one is the sequel and was built using mostly React!
+              </MDBCardText>
+            <MDBBtn href='https://github.com/Samuels1996/this-is-war-2'>GitHub</MDBBtn>
+          <MDBBtn href='https://this-is-war-2.herokuapp.com/'>Deployed Link</MDBBtn>
+        </MDBCardBody>
+      </MDBCard>
     <MDBCard style={{ maxWidth: '22rem' }}>
-      <MDBCardImage src='https://mdbootstrap.com/img/new/standard/nature/184.webp' position='top' alt='...' />
-      <MDBCardBody>
-        <MDBCardTitle>Card title</MDBCardTitle>
-        <MDBCardText>
-          Some quick example text to build on the card title and make up the bulk of the card's content.
-        </MDBCardText>
-        <MDBBtn href='#'>Button</MDBBtn>
-      </MDBCardBody>
-    </MDBCard>
-    <MDBCard style={{ maxWidth: '22rem' }}>
-    <MDBCardImage src='https://mdbootstrap.com/img/new/standard/nature/184.webp' position='top' alt='...' />
+    <MDBCardImage src={Dashboard} position='top' alt='Dashboard Daily img' />
     <MDBCardBody>
-      <MDBCardTitle>Card title</MDBCardTitle>
-      <MDBCardText>
-        Some quick example text to build on the card title and make up the bulk of the card's content.
-      </MDBCardText>
-      <MDBBtn href='#'>Button</MDBBtn>
+        <MDBCardTitle>Dashboard Daily</MDBCardTitle>
+          <MDBCardText>
+            Dashboard Daily is fun place to check in as you get ready to start your day! It will display new news articles and the weather!
+          </MDBCardText>
+        <MDBBtn href='https://github.com/Samuels1996/Morning-meme-page'>GitHub</MDBBtn>
+        <MDBBtn href='https://samuels1996.github.io/Morning-meme-page/'>Deployed Link</MDBBtn>
     </MDBCardBody>
   </MDBCard>
   <MDBCard style={{ maxWidth: '22rem' }}>
-      <MDBCardImage src='https://mdbootstrap.com/img/new/standard/nature/184.webp' position='top' alt='...' />
+      <MDBCardImage src={Portfolio} position='top' alt='My portfolio img' />
       <MDBCardBody>
-        <MDBCardTitle>Card title</MDBCardTitle>
+        <MDBCardTitle>My Portfolio</MDBCardTitle>
         <MDBCardText>
-          Some quick example text to build on the card title and make up the bulk of the card's content.
+          This is the link to my Portfolio that was built and designed with react!
         </MDBCardText>
-        <MDBBtn href='#'>Button</MDBBtn>
+        <MDBBtn href='https://github.com/Samuels1996/My-portfolio'>GitHub</MDBBtn>
+        <MDBBtn href='https://samuels1996.github.io/My-portfolio/'>Deployed Link</MDBBtn>
       </MDBCardBody>
     </MDBCard>
     </div>

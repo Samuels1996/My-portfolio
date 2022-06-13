@@ -4,16 +4,17 @@ import Dashboard from '../../images/Dashboard-Daily.png';
 import Portfolio from '../../images/Brians-Portfolio.png';
 import Mockup from '../../images/mockup.png';
 import 'bootstrap/dist/css/bootstrap.min.css';
+import { MDBCard, MDBCardBody, MDBCardTitle, MDBCardText, MDBCardImage, MDBBtn } from 'mdb-react-ui-kit';
 
 export default function Projects() {
   return (
-    <div className='about'>
+    <div className='about row m-5'>
       <h1>My Projects</h1>
       <hr></hr>
       <p>
         Below is a list of some of the projects that I have had the pleasure of taking part in:
       </p>
-      <div className='portfolio'>
+      {/* <div className='portfolio'>
         <p>This is war</p>
         <a href="http://thisiswar.herokuapp.com/"><img src={ThisIsWar} alt='This is war img' /></a>
         <a href="https://github.com/Samuels1996/this-is-war">GitHub repository</a>
@@ -26,7 +27,7 @@ export default function Projects() {
         <p>This is War 2</p>
         <a href='https://this-is-war-2.herokuapp.com/'><img src={Mockup} alt='Portfolio img' /></a>
         <a href='https://github.com/Samuels1996/this-is-war-2'>GitHub repository</a>
-      </div>
+      </div> */}
       {/* <div>
       <Card style={{ width: '18rem' }}>
       <Card.Img variant="top" src="holder.js/100px180" />
@@ -40,6 +41,46 @@ export default function Projects() {
   </Card.Body>
 </Card>
 </div> */}
+<MDBCard style={{ maxWidth: '22rem' }}>
+      <MDBCardImage src='https://mdbootstrap.com/img/new/standard/nature/184.webp' position='top' alt='...' />
+      <MDBCardBody>
+        <MDBCardTitle>Card title</MDBCardTitle>
+        <MDBCardText>
+          Some quick example text to build on the card title and make up the bulk of the card's content.
+        </MDBCardText>
+        <MDBBtn href='#'>Button</MDBBtn>
+      </MDBCardBody>
+    </MDBCard>
+    <MDBCard style={{ maxWidth: '22rem' }}>
+      <MDBCardImage src='https://mdbootstrap.com/img/new/standard/nature/184.webp' position='top' alt='...' />
+      <MDBCardBody>
+        <MDBCardTitle>Card title</MDBCardTitle>
+        <MDBCardText>
+          Some quick example text to build on the card title and make up the bulk of the card's content.
+        </MDBCardText>
+        <MDBBtn href='#'>Button</MDBBtn>
+      </MDBCardBody>
+    </MDBCard>
+    <MDBCard style={{ maxWidth: '22rem' }}>
+    <MDBCardImage src='https://mdbootstrap.com/img/new/standard/nature/184.webp' position='top' alt='...' />
+    <MDBCardBody>
+      <MDBCardTitle>Card title</MDBCardTitle>
+      <MDBCardText>
+        Some quick example text to build on the card title and make up the bulk of the card's content.
+      </MDBCardText>
+      <MDBBtn href='#'>Button</MDBBtn>
+    </MDBCardBody>
+  </MDBCard>
+  <MDBCard style={{ maxWidth: '22rem' }}>
+      <MDBCardImage src='https://mdbootstrap.com/img/new/standard/nature/184.webp' position='top' alt='...' />
+      <MDBCardBody>
+        <MDBCardTitle>Card title</MDBCardTitle>
+        <MDBCardText>
+          Some quick example text to build on the card title and make up the bulk of the card's content.
+        </MDBCardText>
+        <MDBBtn href='#'>Button</MDBBtn>
+      </MDBCardBody>
+    </MDBCard>
     </div>
   );
 }

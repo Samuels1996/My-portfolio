@@ -93,3 +93,7 @@ img {
   align-items: center;
   border: 10px black;
 }
+
+.nav-item {
+  color: black;
+}

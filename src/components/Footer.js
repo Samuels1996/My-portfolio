@@ -11,6 +11,7 @@ function Footer() {
                 <a href="https://www.linkedin.com/in/brian-samuels-03458b14a/"><img src={Linkedin} alt='Linked in logo' /></a>
                 <a href="https://stackoverflow.com/questions/2281087/center-a-div-in-css/"><img src={Stackflow} alt='Stackoverflow logo' /></a>
         </footer>
+        
     );
 }
 

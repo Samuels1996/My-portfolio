@@ -4,6 +4,7 @@ import Projects from './pages/Projects';
 import About from './pages/About';
 import Resume from './pages/Resume';
 import Contact from './pages/Contact';
+import Landing from './pages/Landing'
 import Footer from './Footer';
 import '../styles/App.css';
 import bootstrap from 'bootstrap';
@@ -21,7 +22,10 @@ export default function PortfolioContainer() {
     if (currentPage === 'Resume') {
       return <Resume />;
     }
+    if (currentPage === 'About') {
     return <About />;
+    }
+    return <Landing />;
   };
 
   const handlePageChange = (page) => setCurrentPage(page);

@@ -104,3 +104,7 @@ img {
 .nav-item {
   color: black;
 }
+
+.resume p {
+  text-align: center;
+}

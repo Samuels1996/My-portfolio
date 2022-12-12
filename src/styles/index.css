@@ -16,12 +16,14 @@ code {
   padding: 0 15px;
   justify-content: center;
   justify-content: space-around;
-  
+  background-image: url("../images/rainbow-coding.jpg");
+  background-size: cover;
 }
 
 .about p {
   font-size: 1.5rem;
   padding: 20px 50px;
+  color: white;
 }
 
 .about h1 {

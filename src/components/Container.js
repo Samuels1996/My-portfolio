@@ -23,7 +23,7 @@ export default function PortfolioContainer() {
       return <Resume />;
     }
     if (currentPage === 'About') {
-    return <About />;
+      return <About />;
     }
     return <Landing />;
   };

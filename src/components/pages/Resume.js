@@ -7,7 +7,7 @@ export default function Resume() {
     <div className='about'>
       <h1>My Resume</h1>
       <hr></hr>
-      <img src={Resumeimg} alt='This is a photo of my resume' className='center' />
+      <img src={Resumeimg} alt='This is my resume' className='center' />
     </div>
   );
 }

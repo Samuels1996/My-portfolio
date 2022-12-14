@@ -91,6 +91,11 @@ img {
 
 .form-padding {
   padding: 20px;
+  margin-top: 2rem;
+}
+
+.form-margin {
+  margin-top: 7rem;
 }
 
 .portfolio {

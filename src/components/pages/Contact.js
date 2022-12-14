@@ -18,6 +18,12 @@ function Contact() {
     }
   };
 
+  function sendMail() {
+    var link = "mailto:samuels.brian9@gmail.com"
+             +"&subject=I would like to learn more!";
+             window.location.href = link
+  }
+
   const handleFormSubmit = (e) => {
     e.preventDefault();
 
@@ -35,7 +41,7 @@ function Contact() {
       <h3 className="text-decoration-none">
         Please email me at samuels.brian9@gmail.com or fill out the form below:
       </h3>
-      <form className="form-text form-center form-padding">
+      <form className="form-text form-center form-padding form-margin">
         <input
           value={name}
           name="name"
@@ -53,7 +59,7 @@ function Contact() {
           className="d-block center center-form"
         />
 
-        <button type="button" onClick={handleFormSubmit} className="bg-primary">
+        <button type="button" onClick={sendMail} className="bg-primary">
           Submit
         </button>
       </form>
